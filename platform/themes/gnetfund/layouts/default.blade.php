@@ -240,7 +240,7 @@
         },
 
         subtitle: {
-            text: 'Gain: 10.57%'
+            text: 'Gain: {{ theme_option('won') }}'
         },
 
         yAxis: {
@@ -256,9 +256,7 @@
             title: {
                 enabled: true,
             },
-            accessibility: {
-                rangeDescription: 'Range: 0 to 80 km.'
-            },
+            categories: ['December 2010', 'May 2012', 'January 2014', 'July 2015', 'October 2017', 'September 2019'],
             maxPadding: 0.05,
             showLastLabel: true
         },
