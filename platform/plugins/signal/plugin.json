@@ -1,0 +1,9 @@
+{
+    "name": "Signal",
+    "namespace": "Botble\\Signal\\",
+    "provider": "Botble\\Signal\\Providers\\SignalServiceProvider",
+    "author": "Phong Nguyễn",
+    "url": "",
+    "version": "1.0",
+    "description": "The description for module signal"
+}
