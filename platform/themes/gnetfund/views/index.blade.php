@@ -68,10 +68,6 @@
                         <a class="nav-link active" data-toggle="pill" href="#HOME" role="tab" aria-selected="true">Tổng
                             quan</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link " data-toggle="pill" href="#SYMBOL" role="tab"
-                           aria-selected="true">Symbols</a>
-                    </li>
                 </ul>
                 <div class="tab-content">
                     <div class="tab-pane fade show active" id="HOME" role="tabpanel">
@@ -95,13 +91,14 @@
                         </table>
                         <div class="info-fund landing-info-one">
                             <h2 class="d-flex mb-3">
-                                <div class="page-header__left">
-                                    <a href="{{ route('public.single') }}" class="page-logo">
-                                        @if (theme_option('logo'))
-                                            <img src="{{ RvMedia::getImageUrl(theme_option('logo')) }}" alt="{{ theme_option('site_title') }}" height="50">
-                                        @endif
-                                    </a>
-                                </div>
+{{--                                <div class="page-header__left">--}}
+{{--                                    <a href="{{ route('public.single') }}" class="page-logo">--}}
+{{--                                        @if (theme_option('logo'))--}}
+{{--                                            <img src="{{ RvMedia::getImageUrl(theme_option('logo')) }}" alt="{{ theme_option('site_title') }}" height="50">--}}
+{{--                                        @endif--}}
+{{--                                    </a>--}}
+{{--                                </div>--}}
+                                GNET FUND
                             </h2>
                             <ul class="mb-5">
                                 <li><i class="icon ion-ios-checkmark-circle"></i> Đòn bảy:1:400</li>
