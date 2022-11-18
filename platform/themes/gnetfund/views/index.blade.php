@@ -42,19 +42,19 @@
                     <div class="tab-pane fade show active" id="pills-trade-limit" role="tabpanel">
                         <div class="d-flex justify-content-between">
                             <div class="market-trade-buy">
-                                <p>Balance: <span class="text-balance">$ 12628.82</span></p>
-                                <p>Tiền vốn: <span class="text-von">$ 12628.82</span></p>
+                                <p>Balance: <span class="text-balance">$ {{ theme_option('balance') }}</span></p>
+                                <p>Tiền vốn: <span class="text-von">$ {{ theme_option('equity') }}</span></p>
                                 <p>Floating PL: <span>$ 0</span></p>
-                                <p>Deposits: <span>$ 16007</span></p>
-                                <p>Withdrawals: <span>$ -4077</span></p>
+                                <p>Deposits: <span>$ {{ theme_option('deposits') }}</span></p>
+                                <p>Withdrawals: <span>$ -{{ theme_option('withdrawals') }}</span></p>
                             </div>
                             <div class="market-trade-sell">
 
-                                <p>Trades: <span>154</span></p>
-                                <p>Pips: <span>6154.60</span></p>
-                                <p>Won: <span class="text-balance">10.55 %</span></p>
-                                <p>Lots: <span>7.91</span></p>
-                                <p>Max Drawdown: <span class="text-danger">-5.62 %</span></p>
+                                <p>Trades: <span>{{ theme_option('trades') }}</span></p>
+                                <p>Pips: <span>{{ theme_option('pips') }}</span></p>
+                                <p>Won: <span class="text-balance">{{ theme_option('won') }} %</span></p>
+                                <p>Lots: <span>{{ theme_option('lots') }}</span></p>
+                                <p>Max Drawdown: <span class="text-danger">-{{ theme_option('max-drawdown') }} %</span></p>
                             </div>
                         </div>
                     </div>
