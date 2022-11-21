@@ -127,7 +127,7 @@
 <div class="modal fade" id="popupSub" tabindex="-1" role="dialog" aria-labelledby="popupSubLabel" aria-hidden="true">
     <div class="modal-dialog modal-newsletter">
         <div class="modal-content">
-            <form action="{{ route('public.newsletter.subscribe') }}" method="post">
+            {!! Form::open(['route' => 'public.send.contact', 'method' => 'POST', 'class' => 'contact-form']) !!}
                 <div class="modal-header">
                     <h4>Subscribe to fund</h4>
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><span>×</span></button>
@@ -135,12 +135,14 @@
                 <div class="modal-body text-center">
                     <p>Bạn vui lòng để lại thông tin để GNETFUND có thể tư vấn cho bạn</p>
                     <div class="form-group">
-                        <input type="text" name="name" class="form-control" placeholder="Nhập số điện thoại để được tư vấn" required="required">
-                        <input type="hidden" name="email" value="{{time()}}@gmail.com" class="form-control" required="">
+                        <input type="text"  name="name" class="form-control" value="Họ tên khách hàng" required="required">
+                        <input type="text" name="phone" class="form-control" placeholder="Nhập số điện thoại để được tư vấn" required="required">
+                        <input type="hidden" name="email" value="{{time()}}@gmail.com"required="">
+                        <input type="hidden"  name="subject" value="Quan tâm quỹ">
                         <input type="submit" class="btn btn-success btn-block" value="Subscribe">
                     </div>
                 </div>
-            </form>
+            {!! Form::close() !!}
         </div>
     </div>
 </div>
