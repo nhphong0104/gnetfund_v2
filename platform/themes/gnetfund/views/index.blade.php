@@ -31,7 +31,7 @@
                         <div id="container"></div>
                     </div>
                 </div>
-                <div class="dashboard-tabs d-flex">
+                <div class="dashboard-tabs">
                     <a href="#"class="Gain">
                         <b class="visual"><i class="icon ion-md-document"></i></b>
                         <p>
