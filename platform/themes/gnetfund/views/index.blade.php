@@ -127,7 +127,7 @@
 <div class="modal fade" id="popupSub" tabindex="-1" role="dialog" aria-labelledby="popupSubLabel" aria-hidden="true">
     <div class="modal-dialog modal-newsletter">
         <div class="modal-content">
-            <form action="/examples/actions/confirmation.php" method="post">
+            <form action="{{ route('public.newsletter.subscribe') }}" method="post">
                 <div class="modal-header">
                     <h4>Subscribe to fund</h4>
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><span>×</span></button>
