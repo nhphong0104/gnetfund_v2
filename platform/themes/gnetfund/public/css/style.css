@@ -2297,7 +2297,7 @@ tbody.ob-heading {
         height: 740px;
     }
     .no-fluid .market-pairs tbody {
-        height: 755px;
+        height: 400px;
     }
 }
 
@@ -2550,7 +2550,14 @@ tbody.ob-heading {
     width: 50%;
     margin-left: 15px;
 }
-
+@media only screen and (max-width: 576px) {
+    .dashboard-tabs .Gain {
+        margin-right: 5px;
+    }
+    .dashboard-tabs .Profit {
+        margin-left: 5px;
+    }
+}
 .dashboard-tabs a {
     display: block;
     position: relative;
