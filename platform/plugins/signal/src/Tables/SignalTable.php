@@ -57,6 +57,9 @@ class SignalTable extends TableAbstract
                 }
                 return anchor_link(route('signal.edit', $item->id), $item->id);
             })
+            ->editColumn('asset_id', function ($item) {
+                return $item->asset->name;
+            })
             ->editColumn('side', function ($item) {
                 return $item->side->toHtml();
             })
