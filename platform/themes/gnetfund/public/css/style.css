@@ -2569,7 +2569,7 @@ tbody.ob-heading {
     font-size: 110px;
     line-height: 110px;
     color: #fff;
-    opacity: .1;
+    opacity: .5;
     filter: alpha(opacity=10);
 }
 .dashboard-tabs a p {

@@ -44,7 +44,7 @@
                         </div>
                         <div class="col-md-6">
                             <a href="#Gain" class="Profit">
-                                <b class="visual"><i class="icon icon-money"></i></b>
+                                <b class="visual"><i class="icon icon-chart"></i></b>
                                 <p>
                                     <strong>{{ theme_option('Profit') }} %</strong>
                                     <em>Profit</em>
@@ -88,8 +88,7 @@
             <div class="market-pairs">
                 <ul class="nav nav-pills" role="tablist">
                     <li class="nav-item">
-                        <a class="nav-link active" data-toggle="pill" href="#HOME" role="tab" aria-selected="true">Tổng
-                            quan</a>
+                        <a class="nav-link active" data-toggle="pill" href="#HOME" role="tab" aria-selected="true">ACTIVITY</a>
                     </li>
                 </ul>
                 <div class="tab-content">
@@ -120,14 +119,13 @@
                         </table>
                         <div class="info-fund landing-info-one">
                             <h2 class="d-flex mb-3">
-{{--                                <div class="page-header__left">--}}
-{{--                                    <a href="{{ route('public.single') }}" class="page-logo">--}}
-{{--                                        @if (theme_option('logo'))--}}
-{{--                                            <img src="{{ RvMedia::getImageUrl(theme_option('logo')) }}" alt="{{ theme_option('site_title') }}" height="50">--}}
-{{--                                        @endif--}}
-{{--                                    </a>--}}
-{{--                                </div>--}}
-                                GNET FUND
+                                <div class="page-header__left">
+                                    <a href="{{ route('public.single') }}" class="page-logo">
+                                        @if (theme_option('logo'))
+                                            <img src="{{ RvMedia::getImageUrl(theme_option('logo')) }}" alt="{{ theme_option('site_title') }}" height="50">
+                                        @endif
+                                    </a>
+                                </div>
                             </h2>
                             <ul class="mb-5">
                                 <li><i class="icon ion-ios-checkmark-circle"></i> Đòn bảy:1:400</li>
