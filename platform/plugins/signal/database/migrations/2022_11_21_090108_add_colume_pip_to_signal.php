@@ -13,7 +13,7 @@ class AddColumePipToSignal extends Migration
      */
     public function up()
     {
-        Schema::table('signal', function (Blueprint $table) {
+        Schema::table('signals', function (Blueprint $table) {
             //
             $table->string('pip',32)->nullable();
         });
@@ -26,7 +26,7 @@ class AddColumePipToSignal extends Migration
      */
     public function down()
     {
-        Schema::table('signal', function (Blueprint $table) {
+        Schema::table('signals', function (Blueprint $table) {
             //
             $table->dropColumn('pip');
         });
