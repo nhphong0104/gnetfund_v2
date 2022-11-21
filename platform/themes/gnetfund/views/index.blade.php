@@ -31,27 +31,21 @@
                         <div id="container"></div>
                     </div>
                 </div>
-                <div class="dashboard-tabs">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <a href="#"class="Gain">
-                                <b class="visual"><i class="icon ion-md-document"></i></b>
-                                <p>
-                                    <strong>{{ theme_option('won') }} %</strong>
-                                    <em>Gain</em>
-                                </p>
-                            </a>
-                        </div>
-                        <div class="col-md-6">
-                            <a href="#Gain" class="Profit">
-                                <b class="visual"><i class="icon icon-chart"></i></b>
-                                <p>
-                                    <strong>{{ theme_option('Profit') }} %</strong>
-                                    <em>Profit</em>
-                                </p>
-                            </a>
-                        </div>
-                    </div>
+                <div class="dashboard-tabs d-flex">
+                    <a href="#"class="Gain">
+                        <b class="visual"><i class="icon ion-md-document"></i></b>
+                        <p>
+                            <strong>{{ theme_option('won') }} %</strong>
+                            <em>Gain</em>
+                        </p>
+                    </a>
+                    <a href="#Gain" class="Profit">
+                        <b class="visual"><i class="icon icon-chart"></i></b>
+                        <p>
+                            <strong>{{ theme_option('Profit') }} %</strong>
+                            <em>Profit</em>
+                        </p>
+                    </a>
                 </div>
             </div>
 

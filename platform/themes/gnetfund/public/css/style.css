@@ -2542,7 +2542,15 @@ tbody.ob-heading {
 }
 .dashboard-tabs .Gain {
     background-color: #48cc7f;
+    width: 50%;
+    margin-right: 15px;
 }
+.dashboard-tabs .Profit {
+    background-color: #fead27;
+    width: 50%;
+    margin-left: 15px;
+}
+
 .dashboard-tabs a {
     display: block;
     position: relative;
@@ -2597,7 +2605,4 @@ tbody.ob-heading {
     font-size: 16px;
     letter-spacing: 0;
     font-weight: 300;
-}
-.dashboard-tabs .Profit {
-    background-color: #fead27;
 }
