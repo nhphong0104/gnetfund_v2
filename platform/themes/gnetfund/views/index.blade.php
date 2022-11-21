@@ -1,12 +1,15 @@
-<div class="favicon">
-    <a href="{{ route('public.single') }}" class="page-logo">
-        @if (theme_option('logo'))
-            <img src="{{ RvMedia::getImageUrl(theme_option('logo')) }}" alt="{{ theme_option('site_title') }}" width="210">
-        @endif
-    </a>
-</div>
+
 <div class="container-fluid no-fluid">
     <div class="row sm-gutters">
+        <div class="col-md-12">
+            <div class="favicon">
+                <a href="{{ route('public.single') }}" class="page-logo">
+                    @if (theme_option('logo'))
+                        <img src="{{ RvMedia::getImageUrl(theme_option('logo')) }}" alt="{{ theme_option('site_title') }}" width="210">
+                    @endif
+                </a>
+            </div>
+        </div>
         <div class="col-md-12 mb5">
             <div class="header d-flex">
 
