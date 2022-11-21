@@ -81,12 +81,15 @@
                             </tr>
                             </thead>
                             <tbody>
-                            <tr>
-                                <td><i class="icon ion-md-star"></i> ETH/BTC</td>
-                                <td>BUY</td>
-                                <td>0.00020255</td>
-                                <td class="red">-2.58%</td>
-                            </tr>
+                            @foreach(get_signal_by_status('published',10) as $signal)
+                                @dd($signal)
+                                <tr>
+                                    <td><i class="icon ion-md-star"></i> {{$signal->assets->name}}</td>
+                                    <td></td>
+                                    <td>0.00020255</td>
+                                    <td class="red">-2.58%</td>
+                                </tr>
+                            @endforeach
                             </tbody>
                         </table>
                         <div class="info-fund landing-info-one">

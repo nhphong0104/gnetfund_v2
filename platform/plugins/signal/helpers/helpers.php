@@ -53,4 +53,3 @@ if (!function_exists('get_signal_by_status')) {
         return app(SignalInterface::class)->getSignalByStatus($status, $limit);
     }
 }
-
