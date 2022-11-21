@@ -174,6 +174,11 @@ class SignalTable extends TableAbstract
                 'title' => trans('core/base::tables.status'),
                 'width' => '100px',
             ],
+            'status_signal' => [
+                'name'  => 'signals.status_signal',
+                'title' => trans('core/base::tables.status'),
+                'width' => '100px',
+            ],
         ];
     }
 

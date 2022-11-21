@@ -5,6 +5,7 @@ namespace Botble\Signal\Forms;
 use Botble\Base\Forms\FormAbstract;
 use Botble\Signal\Enums\SideEnums;
 use Botble\Signal\Enums\StatusEnum;
+use Botble\Signal\Enums\StatusSignal;
 use Botble\Signal\Http\Requests\SignalRequest;
 use Botble\Signal\Models\Signal;
 
@@ -138,6 +139,17 @@ class SignalForm extends FormAbstract
                     'class' => 'form-control select-full',
                 ],
                 'choices'    => StatusEnum::labels(),
+                'wrapper'    => [
+                    'class' => $this->formHelper->getConfig('defaults.wrapper_class') . ' col-md-6',
+                ],
+            ])
+            ->add('status_signal', 'customSelect', [
+                'label'      => trans('core/base::tables.status'),
+                'label_attr' => ['class' => 'control-label required'],
+                'attr'       => [
+                    'class' => 'form-control select-full',
+                ],
+                'choices'    => StatusSignal::labels(),
                 'wrapper'    => [
                     'class' => $this->formHelper->getConfig('defaults.wrapper_class') . ' col-md-6',
                 ],
