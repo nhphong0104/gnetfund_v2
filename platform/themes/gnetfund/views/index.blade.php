@@ -1,5 +1,4 @@
-
-<div class="container-fluid no-fluid">
+<div class="container-fluid mbt15 no-fluid">
     <div class="row sm-gutters">
         <div class="col-md-12">
             <div class="favicon">
