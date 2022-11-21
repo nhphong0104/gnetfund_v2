@@ -85,7 +85,7 @@ class SignalForm extends FormAbstract
 
             ->add('sl', 'text', [
                 'label'      => "SL",
-                'label_attr' => ['class' => 'control-label required'],
+                'label_attr' => ['class' => 'control-label'],
                 'attr'       => [
                     'placeholder'  => "",
                     'data-counter' => 120,
@@ -97,7 +97,7 @@ class SignalForm extends FormAbstract
 
             ->add('tp', 'text', [
                 'label'      => "TP",
-                'label_attr' => ['class' => 'control-label required'],
+                'label_attr' => ['class' => 'control-label'],
                 'attr'       => [
                     'placeholder'  => "",
                     'data-counter' => 120,
@@ -109,7 +109,7 @@ class SignalForm extends FormAbstract
 
             ->add('time_start', 'datetime-local', [
                 'label'      => "Ngày tạo",
-                'label_attr' => ['class' => 'control-label required'],
+                'label_attr' => ['class' => 'control-label'],
                 'attr'       => [
                     'placeholder'  => "",
                     'data-counter' => 120,
@@ -121,7 +121,7 @@ class SignalForm extends FormAbstract
 
             ->add('time_end', 'datetime-local', [
                 'label'      => "Ngày đóng",
-                'label_attr' => ['class' => 'control-label required'],
+                'label_attr' => ['class' => 'control-label'],
                 'attr'       => [
                     'placeholder'  => "",
                     'data-counter' => 120,
@@ -130,7 +130,6 @@ class SignalForm extends FormAbstract
                     'class' => $this->formHelper->getConfig('defaults.wrapper_class') . ' col-md-6',
                 ],
             ])
-
 
             ->add('status', 'customSelect', [
                 'label'      => trans('core/base::tables.status'),

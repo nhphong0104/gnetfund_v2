@@ -93,6 +93,7 @@ class SignalTable extends TableAbstract
         $query = $model->select([
             'signals.id',
             'signals.side',
+            'signals.asset_id',
             'signals.price_open',
             'signals.price_close',
             'signals.sl',
