@@ -85,7 +85,7 @@ class SignalForm extends FormAbstract
             ])
 
             ->add('sl', 'text', [
-                'label'      => "SL",
+                'label'      => "Gain",
                 'label_attr' => ['class' => 'control-label'],
                 'attr'       => [
                     'placeholder'  => "",
@@ -97,7 +97,7 @@ class SignalForm extends FormAbstract
             ])
 
             ->add('tp', 'text', [
-                'label'      => "TP",
+                'label'      => "Profit",
                 'label_attr' => ['class' => 'control-label'],
                 'attr'       => [
                     'placeholder'  => "",
