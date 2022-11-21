@@ -35,19 +35,19 @@
                     <div class="row">
                         <div class="col-md-6">
                             <a href="#"class="Gain">
-                                <b class="visual"><i class="fa fa-briefcase"></i></b>
+                                <b class="visual"><i class="icon ion-md-document"></i></b>
                                 <p>
-                                    <strong>12.47 %</strong>
+                                    <strong>{{ theme_option('won') }} %</strong>
                                     <em>Gain</em>
                                 </p>
                             </a>
                         </div>
                         <div class="col-md-6">
                             <a href="#Gain" class="Profit">
-                                <b class="visual"><i class="fa fa-briefcase"></i></b>
+                                <b class="visual"><i class="fa fa-dollar"></i></b>
                                 <p>
-                                    <strong>12.47 %</strong>
-                                    <em>Gain</em>
+                                    <strong>{{ theme_option('Profit') }} %</strong>
+                                    <em>Profit</em>
                                 </p>
                             </a>
                         </div>
