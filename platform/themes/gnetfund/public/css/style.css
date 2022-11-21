@@ -839,7 +839,7 @@ footer.landing-footer-two ul li a:hover {
 
 .market-pairs thead th,
 .market-pairs tbody td {
-    width: 29%;
+    width: 120px;
 }
 
 .order-book table,
