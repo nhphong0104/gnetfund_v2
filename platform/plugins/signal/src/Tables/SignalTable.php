@@ -141,12 +141,12 @@ class SignalTable extends TableAbstract
             ],
             'sl' => [
                 'name'  => 'signals.sl',
-                'title' => trans('plugins/signal::signal.form.sl'),
+                'title' => trans('GAIN'),
                 'width' => '100px',
             ],
             'tp' => [
                 'name'  => 'signals.tp',
-                'title' => trans('plugins/signal::signal.form.tp'),
+                'title' => trans('PROFIT'),
                 'width' => '100px',
             ],
             'price_close' => [
