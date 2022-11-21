@@ -15,7 +15,7 @@ class AddColumeStatusSignalToSignal extends Migration
     {
         Schema::table('signals', function (Blueprint $table) {
             //
-            $table->string('status_signal', 60)->default('published');
+            $table->string('status_signal', 60)->default('waiting');
         });
     }
 
