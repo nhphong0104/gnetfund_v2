@@ -160,8 +160,8 @@
                     <p>Bạn vui lòng để lại thông tin để GNETFUND có thể tư vấn cho bạn</p>
                     <div class="form-group">
 
-                        <input type="text" class="form-control" name="name" id="name" placeholder="{{ __('Name') }}" required="required">
-                        <input type="text" name="phone" class="form-control" placeholder="Nhập số điện thoại để được tư vấn" required="required">
+                        <input type="text" class="form-control mb-10" name="name" id="name" placeholder="Your Name" required="required">
+                        <input type="text" name="phone" class="form-control" placeholder="Your Phone" required="required">
                         <input type="hidden" name="email" value="{{time()}}@gmail.com" class="form-control" required="">
                         <input type="hidden" name="subject" value="Quan tâm quỹ GNETFUND" class="form-control" required="">
                         <input type="hidden" name="content" value="Quan tâm quỹ GNETFUND" class="form-control" required="">
