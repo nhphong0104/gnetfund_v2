@@ -14,4 +14,12 @@ class SignalCacheDecorator extends CacheAbstractDecorator implements SignalInter
     {
         return $this->getDataIfExistCache(__FUNCTION__, func_get_args());
     }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function getSignal($limit = 5)
+    {
+        return $this->getDataIfExistCache(__FUNCTION__, func_get_args());
+    }
 }

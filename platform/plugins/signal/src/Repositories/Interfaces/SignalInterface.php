@@ -13,4 +13,9 @@ interface SignalInterface extends RepositoryInterface
      */
     public function getSignalByStatus($status, $limit = 5);
 
+    /**
+     * @param array $condition
+     * @return mixed
+     */
+    public function getSignal($limit = 5);
 }

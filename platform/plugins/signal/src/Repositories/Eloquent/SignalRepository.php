@@ -23,4 +23,17 @@ class SignalRepository extends RepositoriesAbstract implements SignalInterface
 
         return $this->applyBeforeExecuteQuery($data)->get();
     }
+
+    /**
+    /**
+     * {@inheritdoc}
+     */
+    public function getSignal($limit = 5)
+    {
+        $data = $this->model->with('asset')->select('signals.*');
+
+        $data = $data->limit($limit)->orderBy('signals.created_at', 'DESC');
+
+        return $this->applyBeforeExecuteQuery($data)->get();
+    }
 }
