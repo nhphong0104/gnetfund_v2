@@ -2553,6 +2553,9 @@ tbody.ob-heading {
 .dashboard-tabs{
     display: flex;
 }
+.favicon{
+    display: none;
+}
 @media only screen and (max-width: 576px) {
     .dashboard-tabs{
         display: block;
@@ -2565,9 +2568,9 @@ tbody.ob-heading {
         margin-left: 0px;
         width: 100%;
     }
-    .market-trade btn{
-        position: fixed;
-        bottom: 10px;
+    .favicon{
+        display: block;
+        text-align: center;
     }
 }
 .dashboard-tabs a {
@@ -2625,3 +2628,4 @@ tbody.ob-heading {
     letter-spacing: 0;
     font-weight: 300;
 }
+
