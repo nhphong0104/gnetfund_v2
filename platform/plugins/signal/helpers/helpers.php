@@ -53,3 +53,16 @@ if (!function_exists('get_signal_by_status')) {
         return app(SignalInterface::class)->getSignalByStatus($status, $limit);
     }
 }
+
+if (!function_exists('get_signal')) {
+    /**
+     * @param array $status
+     * @param array $limit
+     * @return mixed
+     *c
+     */
+    function get_signal($limit = 5)
+    {
+        return app(SignalInterface::class)->getSignal($limit);
+    }
+}
