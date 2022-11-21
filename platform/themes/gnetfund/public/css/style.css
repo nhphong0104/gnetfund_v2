@@ -2552,10 +2552,16 @@ tbody.ob-heading {
 }
 @media only screen and (max-width: 576px) {
     .dashboard-tabs .Gain {
-        margin-right: 5px;
+        margin-right: 0px;
+        width: 100%;
     }
     .dashboard-tabs .Profit {
-        margin-left: 5px;
+        margin-left: 0px;
+        width: 100%;
+    }
+    .market-trade{
+        position: fixed;
+        bottom: 10px;
     }
 }
 .dashboard-tabs a {
