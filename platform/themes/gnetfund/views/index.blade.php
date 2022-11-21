@@ -44,7 +44,7 @@
                         </div>
                         <div class="col-md-6">
                             <a href="#Gain" class="Profit">
-                                <b class="visual"><i class="fa fa-dollar"></i></b>
+                                <b class="visual"><i class="icon icon-money"></i></b>
                                 <p>
                                     <strong>{{ theme_option('Profit') }} %</strong>
                                     <em>Profit</em>

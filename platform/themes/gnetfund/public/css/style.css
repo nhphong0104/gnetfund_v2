@@ -2563,6 +2563,15 @@ tbody.ob-heading {
     font-size: 35px;
     line-height: 35px;
 }
+
+.visual>i {
+    margin-left: -35px;
+    font-size: 110px;
+    line-height: 110px;
+    color: #fff;
+    opacity: .1;
+    filter: alpha(opacity=10);
+}
 .dashboard-tabs a p {
     margin-bottom: 5px;
     position: absolute;
