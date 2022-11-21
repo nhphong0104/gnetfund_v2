@@ -5,7 +5,7 @@
         @endif
     </a>
 </div>
-<div class="container-fluid mtb15 no-fluid">
+<div class="container-fluid no-fluid">
     <div class="row sm-gutters">
         <div class="col-md-12 mb5">
             <div class="header d-flex">
