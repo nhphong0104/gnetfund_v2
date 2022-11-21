@@ -19,7 +19,7 @@ class SignalForm extends FormAbstract
     {
 
 
-        $list = get_all_symbols();
+        $list = get_all_asset();
         $assets = [];
         foreach ($list as $row) {
             $assets[$row->id] = $row->name;
