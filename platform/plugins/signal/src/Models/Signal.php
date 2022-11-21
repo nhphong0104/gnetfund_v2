@@ -33,7 +33,7 @@ class Signal extends BaseModel
         'sl',
         'tp',
         'pip',
-        'status_loss',
+        'status_signal',
         'time_start',
         'time_end',
         'note',
