@@ -82,12 +82,15 @@
                             </thead>
                             <tbody>
                             @foreach(get_signal(10) as $signal)
-                                @dd($signal)
                                 <tr>
-                                    <td><i class="icon ion-md-star"></i> {{$signal->assets->name}}</td>
-                                    <td></td>
-                                    <td>0.00020255</td>
-                                    <td class="red">-2.58%</td>
+                                    <td><i class="icon ion-md-star"></i> {{$signal->asset->name}}</td>
+                                    <td>{{$signal->side}}</td>
+                                    <td>{{$signal->price_open}}</td>
+                                    @if($signal->status_signal == 'win')
+                                        <td class="green">+2.58%</td>
+                                    @else
+                                        <td class="red">-2.58%</td>
+                                    @endif
                                 </tr>
                             @endforeach
                             </tbody>
