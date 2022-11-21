@@ -122,7 +122,7 @@
                                 <div class="page-header__left">
                                     <a href="{{ route('public.single') }}" class="page-logo">
                                         @if (theme_option('logo'))
-                                            <img src="{{ RvMedia::getImageUrl(theme_option('logo')) }}" alt="{{ theme_option('site_title') }}" height="50">
+                                            <img src="{{ RvMedia::getImageUrl(theme_option('logo')) }}" alt="{{ theme_option('site_title') }}" width="210">
                                         @endif
                                     </a>
                                 </div>
