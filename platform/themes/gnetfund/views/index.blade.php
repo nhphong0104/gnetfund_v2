@@ -81,7 +81,7 @@
                             </tr>
                             </thead>
                             <tbody>
-                            @foreach(get_signal_by_status('published',10) as $signal)
+                            @foreach(get_signal_by_status('close',10) as $signal)
                                 @dd($signal)
                                 <tr>
                                     <td><i class="icon ion-md-star"></i> {{$signal->assets->name}}</td>
