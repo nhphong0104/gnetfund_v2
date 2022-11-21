@@ -47,7 +47,7 @@
                 fontFamily: '\'Overpass\', sans-serif'
             },
             plotBorderColor: '#606063',
-            height: 676
+            height: 555
         },
         title: {
             style: {

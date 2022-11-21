@@ -31,7 +31,30 @@
                         <div id="container"></div>
                     </div>
                 </div>
+                <div class="dashboard-tabs">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <a href="#"class="Gain">
+                                <b class="visual"><i class="fa fa-briefcase"></i></b>
+                                <p>
+                                    <strong>12.47 %</strong>
+                                    <em>Gain</em>
+                                </p>
+                            </a>
+                        </div>
+                        <div class="col-md-6">
+                            <a href="#Gain" class="Profit">
+                                <b class="visual"><i class="fa fa-briefcase"></i></b>
+                                <p>
+                                    <strong>12.47 %</strong>
+                                    <em>Gain</em>
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
+
             <div class="market-trade">
                 <ul class="nav nav-pills" role="tablist">
                     <li class="nav-item">
