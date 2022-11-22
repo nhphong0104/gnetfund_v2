@@ -112,9 +112,9 @@
                                     <td>{{$signal->side}}</td>
                                     <td>{{$signal->price_open}}</td>
                                     @if($signal->status_signal == 'win')
-                                        <td class="price green">${{$signal->tp}}</td>
+                                        <td class="pricewin green">${{$signal->tp}}</td>
                                     @else
-                                        <td class="price red">-${{$signal->tp}}</td>
+                                        <td class="priceloss red">-${{$signal->tp}}</td>
                                     @endif
                                 </tr>
                             @endforeach

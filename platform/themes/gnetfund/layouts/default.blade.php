@@ -385,11 +385,7 @@
 
 
     function changeColorWin() {
-        var x = document.getElementsByClassName("price");
-        x.style.color = "white";
-        if (x.style.color == "white") {
-            x.style.color = "green";
-        }
+        $('.pricewin').toggleClass( "text-white" );
     }
 
     setInterval(changeColorWin, 1000)
