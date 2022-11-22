@@ -392,7 +392,7 @@
         }
     }
 
-    setInterval(changeColor, 1000)
+    setInterval(changeColorWin, 1000)
 </script>
 </body>
 </html>
