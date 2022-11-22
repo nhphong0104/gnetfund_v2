@@ -387,8 +387,16 @@
     function changeColorWin() {
         $('.pricewin').toggleClass( "text-white" );
     }
+    function changeColorLoss() {
+        $('.priceloss').toggleClass( "text-white" );
+    }
 
-    setInterval(changeColorWin, 1000)
+    var rand = Math.round(Math.random() * (3000 - 500)) + 500;
+    setTimeout(function() {
+        changeColorWin();
+        changeColorLoss();
+        loop();
+    }, rand);
 </script>
 </body>
 </html>
