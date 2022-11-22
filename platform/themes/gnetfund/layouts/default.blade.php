@@ -392,11 +392,13 @@
     }
 
     var rand = Math.round(Math.random() * (3000 - 500)) + 500;
+    (function loop() {
     setTimeout(function() {
         changeColorWin();
         changeColorLoss();
         loop();
     }, rand);
+    }());
 </script>
 </body>
 </html>
