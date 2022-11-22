@@ -383,14 +383,16 @@
 
     });
 
-    var x = $('#price');
-    var color = ["white"];
-    setInterval(function() {
-        for(let y = 0; y < 3; y++){
-            x.style.backgroundColor = color[Math.floor(Math.random() * 3)];
-        }
-    }, 300) ;
 
+    function changeColorWin() {
+        var x = document.getElementsByClassName("price");
+        x.style.color = "white";
+        if (x.style.color == "white") {
+            x.style.color = "green";
+        }
+    }
+
+    setInterval(changeColor, 1000)
 </script>
 </body>
 </html>
