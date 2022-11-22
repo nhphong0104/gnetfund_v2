@@ -18,6 +18,22 @@ theme_option()
         'icon' => 'fa fa-display',
     ])
     ->setField([ // Set field for section
+        'id' => 'profit',
+        'section_id' => 'opt-text-subsection-home',
+        'type' => 'number',
+        'label' => __('Profit'),
+        'attributes' => [
+            'name' => 'profit',
+            'value' => null,
+            'options' => [
+                'class' => 'form-control',
+                'placeholder' => __('Profit'),
+                'data-counter' => 120,
+            ]
+        ],
+        'helper' => __('Balance on Fund'),
+    ])
+    ->setField([ // Set field for section
         'id' => 'balance',
         'section_id' => 'opt-text-subsection-home',
         'type' => 'number',
