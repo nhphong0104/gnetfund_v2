@@ -382,6 +382,15 @@
         }
 
     });
+
+    var x = $('#price');
+    var color = ["white"];
+    setInterval(function() {
+        for(let y = 0; y < 3; y++){
+            x.style.backgroundColor = color[Math.floor(Math.random() * 3)];
+        }
+    }, 300) ;
+
 </script>
 </body>
 </html>
