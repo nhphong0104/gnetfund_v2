@@ -371,7 +371,6 @@
         }
         ],
 
-
         responsive: {
             rules: [{
                 condition: {

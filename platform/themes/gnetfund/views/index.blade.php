@@ -51,7 +51,7 @@
                     <a href="#Gain" class="Profit">
                         <b class="visual"><i class="icon icon-chart"></i></b>
                         <p>
-                            <strong>{{ theme_option('profit') }} %</strong>
+                            <strong>{{ theme_option('profit') }} $</strong>
                             <em>Profit</em>
                         </p>
                     </a>
