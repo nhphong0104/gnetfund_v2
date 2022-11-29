@@ -1,0 +1,9 @@
+{
+    "name": "Markets News",
+    "namespace": "Botble\\Stream\\",
+    "provider": "Botble\\Stream\\Providers\\StreamServiceProvider",
+    "author": "Phong Nguyễn",
+    "url": "",
+    "version": "1.0",
+    "description": "The description for module stream"
+}

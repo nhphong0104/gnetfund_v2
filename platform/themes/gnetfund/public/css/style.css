@@ -1200,18 +1200,22 @@ tbody.ob-heading {
 
 .market-news li a {
     color: #4a4a4a;
-    font-size: 11px;
+    font-size: 13px;
     display: block;
     text-decoration: none;
 }
-
+.market-news li a i{
+    font-size: 13px;
+    font-weight: bold;
+    padding-right: 5px;
+}
 .market-news li:hover {
     background: #f6f8f9;
 }
 
 .market-news li strong {
     display: block;
-    font-size: 13px;
+    font-size: 14px;
     margin-bottom: 2px;
     color: #4a4a4ac7;
 }
@@ -1231,7 +1235,7 @@ tbody.ob-heading {
 }
 
 .market-news ul {
-    height: 348px;
+    height: 820px;
     overflow-y: auto;
 }
 
@@ -1956,7 +1960,7 @@ tbody.ob-heading {
 
 #dark .market-news li strong,
 #dark .market-news li a {
-    color: #c5cbce;
+    color: #fff;
 }
 
 #dark .market-order {
