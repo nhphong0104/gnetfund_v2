@@ -2637,3 +2637,18 @@ tbody.ob-heading {
     font-weight: 300;
 }
 
+.img-country{
+    font-size: 11px;
+    height: 18px;
+    line-height: 16px;
+    width: 18px;
+    align-items: center;
+    border-radius: 50%;
+    color: #fff;
+    display: inline-flex;
+    font-style: normal;
+    font-weight: 700;
+    justify-content: center;
+    border-radius: 50%;
+    display: inline-flex;
+}
