@@ -90,7 +90,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-6 pr-md-0">
+        <div class="col-md-6 pr-md-0 pl-md-0">
             <div class="main-chart">
                 <div class="markets-container">
                     <div class="markets-content">
