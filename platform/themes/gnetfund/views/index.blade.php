@@ -50,7 +50,7 @@
                             <tbody>
                             @foreach(get_signal(10) as $signal)
                                 <tr>
-                                    <td>{{$signal->assets->name}}</td>
+                                    <td>{{$signal->asset->name}}</td>
                                     <td>{{$signal->side}}</td>
                                     <td>{{$signal->price_open}}</td>
                                     @if($signal->status_signal == 'win')
