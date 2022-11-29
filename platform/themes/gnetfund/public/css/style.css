@@ -2639,16 +2639,10 @@ tbody.ob-heading {
 
 .img-country{
     font-size: 11px;
-    height: 18px;
-    line-height: 16px;
-    width: 18px;
-    align-items: center;
-    border-radius: 50%;
-    color: #fff;
+    height: 13px;
     display: inline-flex;
     font-style: normal;
     font-weight: 700;
     justify-content: center;
-    border-radius: 50%;
     display: inline-flex;
 }
