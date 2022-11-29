@@ -161,7 +161,12 @@
                         @foreach(get_all_wall_post(true,20) as $wall)
                             <li>
                                 <a href="#!">
-                                    <span><i class="icon ion-ios-timer pr15"></i>{{$wall->vn_pub_date}}</span>
+                                    <span><i class="icon ion-ios-timer pr15"></i>
+                                    @if($wall->type != 0)
+                                    <img src="{{$wall->country}}" alt="">
+                                    @endif
+                                    {{$wall->vn_pub_date}}
+                                </span>
                                     <strong>{{$wall->description}}</strong>
                                 @if($wall->type != 0)
                                 <div class="row">
