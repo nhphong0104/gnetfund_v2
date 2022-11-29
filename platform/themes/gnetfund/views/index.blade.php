@@ -163,7 +163,7 @@
                                 <a href="#!">
                                     <span><i class="icon ion-ios-timer pr15"></i>
                                     @if($wall->type != 0)
-                                    <img class="img-round" src="{{$wall->country}}" alt="">
+                                    <img class="img-country" src="{{$wall->country}}" alt="">
                                     @endif
                                     {{$wall->vn_pub_date}}
                                 </span>
