@@ -39,8 +39,8 @@
             backgroundColor: {
                 linearGradient: { x1: 0, y1: 0, x2: 1, y2: 1 },
                 stops: [
-                    [0, '#131722'],
-                    [1, '#131722']
+                    [0, '#333'],
+                    [1, '#333']
                 ]
             },
             style: {
