@@ -29,7 +29,7 @@
                 <!-- TradingView Widget END -->
             </div>
         </div>
-        <div class="col-md-3 col-sm-order-last">
+        <div class="col-md-3 order-md-1 order-2">
             <div class="market-pairs">
                 <ul class="nav nav-pills" role="tablist">
                     <li class="nav-item">
@@ -90,7 +90,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-6 pr-md-0 pl-md-0 col-sm-order-first">
+        <div class="col-md-6 pr-md-0 pl-md-0 order-md-2 order-1">
             <div class="main-chart">
                 <div class="markets-container">
                     <div class="markets-content">
@@ -151,7 +151,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3 order-md-3 order-3">
             <div class="market-news">
                 <h2 class="heading">Market News</h2>
                 <ul class="mCustomScrollbar _mCS_11 mCS-autoHide" style="position: relative; overflow: visible;">
