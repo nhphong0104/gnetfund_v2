@@ -176,7 +176,7 @@
                                     @if($wall->influence == 1)
                                     <span class="green">Act:{{$wall->actual}}</span>
                                     @elseif($wall->influence == 2)
-                                    <span class="white">Act:{{$wall->actual}}</span>
+                                    <span class="text-von">Act:{{$wall->actual}}</span>
                                     @elseif($wall->influence == 3)
                                     <span class="red">Act:{{$wall->actual}}</span>
                                     @endif
