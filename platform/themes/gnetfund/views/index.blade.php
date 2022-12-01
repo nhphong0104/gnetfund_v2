@@ -191,7 +191,7 @@
                 </ul>
             </div>
             <div class="ads">
-                <div id="adunit" style="overflow: hidden;">
+                <div id="adunit">
                     <img src="https://ad.doubleclick.net/ddm/trackimp/N39908.2006304TRADINGVIEW/B23966912.280884165;dc_trk_aid=474934378;dc_trk_cid=136857432;salesforce=SFS-7010e000001KpJiAAK;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;gdpr=;gdpr_consent=;ltd=?" style="display:none">
                     <div class="image">
                         <a class="image-link" href="https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjss-3yVRcUS219we96v6DOrblXkD93JXFIL-hD-DWqw2IFIgdpntMiH7qdh-r8Acxa4S8593vWZx1Sdbzpuo714-RHPrxousfLa3qRzXQIQFPxVS36XRNZulsQIaD3pkJfKrY1j43WIkFUnPJrV6-gE7aV8DAK5i5-tNmT2H7LmX--2UiY314vgGtAoZlnWsA7_2tuws2eIdwTGBGcdcRFqABW7zKpAMyF_o4X9sDb4hDQY5PxE-oWQvNvEINbQEtn0lpkBEj6UsNBXeTP4sC_9CDQNvS2pPRwc3rvE6KfLvTgHxRO3vU4bNkGf4QTUH22xGshvlOAZtFt-pJf4KIEi9qbN69jpqKJ5yRuY&amp;sai=AMfl-YSR1SpWW-j9gk90-aB453sHliuPZ9vviJCXy_SNN_ugb_-k8kMX0plzkwj6mkig0TpnM2dVcI6qC8k5EafRy-z1L-Oj0rkVJ9amOeaoeirotoxd5rynUUpHU1se6O8-emgmnxwb3c0&amp;sig=Cg0ArKJSzDrQRmtCQI2kEAE&amp;fbs_aeid=[gw_fbsaeid]&amp;urlfix=1&amp;adurl=https://ad.doubleclick.net/ddm/trackclk/N39908.2006304TRADINGVIEW/B23966912.280884165%3Bdc_trk_aid%3D474934378%3Bdc_trk_cid%3D136857432%3Bsalesforce%3DSFS-7010e000001KpJiAAK%3Bdc_lat%3D%3Bdc_rdid%3D%3Btag_for_child_directed_treatment%3D%3Btfua%3D%3Bgdpr%3D%3Bgdpr_consent%3D%3Bltd%3D" target="_blank"><img src="https://tpc.googlesyndication.com/simgad/14136323686721867516?"></a>
