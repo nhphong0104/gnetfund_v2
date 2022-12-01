@@ -2655,6 +2655,7 @@ tbody.ob-heading {
     padding: 31px 20px;
     margin-top: 15px;
     border-radius: 3px;
+    position: relative;
 }
 #adunit .image {
     display: flex;
