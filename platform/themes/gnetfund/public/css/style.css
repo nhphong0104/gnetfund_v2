@@ -2387,7 +2387,7 @@ tbody.ob-heading {
 
 @media only screen and (max-width: 768px) {
     .market-news ul{
-        height: 400px;
+        height: 600px;
     }
     footer.landing-footer {
         text-align: center;
