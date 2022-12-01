@@ -2652,9 +2652,9 @@ tbody.ob-heading {
 }
 #adunit{
     background: #131722;
-    padding: 20px;
+    padding: 31px 20px;
     margin-top: 15px;
-    border-radius: 5px;
+    border-radius: 3px;
 }
 #adunit .image {
     display: flex;
