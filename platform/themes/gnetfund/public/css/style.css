@@ -2653,7 +2653,8 @@ tbody.ob-heading {
 #adunit{
     background: #131722;
     padding: 20px;
-    ma
+    margin-top: 15px;
+    border-radius: 5px;
 }
 #adunit .image {
     display: flex;
@@ -2700,11 +2701,11 @@ tbody.ob-heading {
     margin-top: 8px;
 }
 #adunit .call-to-action-link {
-    border: 1px solid #fead27;
+    border: 1px solid #20A0E1;
     border-radius: 4px;
     display: inline-block;
     padding: 0 12px;
-    color: #fead27;
+    color: #20A0E1;
     font-size: 14px;
     text-decoration: none;
 }
