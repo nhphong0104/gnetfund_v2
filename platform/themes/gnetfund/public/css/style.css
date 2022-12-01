@@ -2653,6 +2653,7 @@ tbody.ob-heading {
 #adunit{
     background: #131722;
     padding: 20px;
+    ma
 }
 #adunit .image {
     display: flex;
@@ -2684,7 +2685,7 @@ tbody.ob-heading {
     font-family: -apple-system,BlinkMacSystemFont,'Trebuchet MS',Roboto,SegoeUI,Ubuntu,sans-serif;
     background-color: #FF9800;
     border-radius: 3px;
-    bottom: 0px;
+    top: 5px;
     font-size: 11px;
     padding: 0px 6px;
     position: absolute;
@@ -2699,11 +2700,11 @@ tbody.ob-heading {
     margin-top: 8px;
 }
 #adunit .call-to-action-link {
-    border: 1px solid #1848CC;
+    border: 1px solid #fead27;
     border-radius: 4px;
     display: inline-block;
     padding: 0 12px;
-    color: #1848CC;
+    color: #fead27;
     font-size: 14px;
     text-decoration: none;
 }
