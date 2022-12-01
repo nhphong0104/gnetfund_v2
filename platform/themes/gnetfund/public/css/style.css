@@ -1235,7 +1235,7 @@ tbody.ob-heading {
 }
 
 .market-news ul {
-    height: 680px;
+    height: 610px;
     overflow-y: auto;
     padding-bottom: 10px;
 }
@@ -2650,7 +2650,10 @@ tbody.ob-heading {
     justify-content: center;
     display: inline-flex;
 }
-
+#adunit{
+    background: #131722;
+    padding: 20px;
+}
 #adunit .image {
     display: flex;
     float: right;
